@@ -101,7 +101,30 @@ background-color: antiquewhite;
     margin-bottom: 10px;
     color: rgb(8, 125, 129);
   }
-
+    #childhood h2{
+    text-align: center;
+    margin-top: -5px;
+    color: rgb(8, 125, 129);
+    padding-right: 50px;
+    font-family: "DM Serif Text", serif;
+    font-size: 60px;
+  }
+  #teenage h2{
+    text-align: center;
+    color: rgb(8, 125, 129);
+    margin-top: -5px;
+    padding-right: 50px;
+    font-family: "DM Serif Text", serif;
+    font-size: 60px;
+  }
+  #college h2{
+    text-align: center;
+    color: rgb(8, 125, 129);
+    margin-top: -5px;
+    padding-right: 50px;
+    font-family: "DM Serif Text", serif;
+    font-size: 60px;
+  }
   #childhood {
     margin-top: 1500px;
     width: 96%;
