@@ -1,0 +1,232 @@
+body{
+  background-color: rgb(220, 205, 186);  
+  height: auto;
+  width: auto;
+  margin-top: 0px;
+  max-height: 1000px;
+}
+.navbar{
+  display: flex;
+  width: auto;
+  max-width: 100%;
+  max-height: 45px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  box-shadow: 1px 3px 7px #5A4938;
+}
+
+.navbar a {
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+.navbar a:hover {
+  color: black;
+}
+.navbar .logo h3{
+font-family: "Major Mono Display", monospace;
+font-weight: bold;
+font-style: normal;
+color: rgb(8, 125, 129);
+text-shadow: 1px 1px black;
+margin-right: 230px;
+
+}
+.navbar .logo p{
+font-family: "Madimi One", sans-serif;
+padding-left: 5px;
+padding-right: 5px;
+width: 65px;
+font-weight: 400;
+font-style: normal;
+margin-left: 15%;
+margin-top: -20px;
+background-color: antiquewhite;
+}
+
+.Welcome{
+  max-width: 100%;
+  max-height: fit-content;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  box-shadow: 1px 3px 7px #5A4938;
+}
+
+.Welcome a {
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 300px;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+.Welcome a:hover {
+  color: black;
+}
+.Welcome h1 {
+  text-align: center;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  margin-bottom: -5px;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+.Welcome .Button{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.Welcome .Button .tvshows{
+  margin-left: 200px;
+}
+
+
+
+#tvshows{
+  max-width: 100%;
+  max-height: fit-content;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  box-shadow: 1px 3px 7px #5A4938;
+}
+#tvshows h2 {
+  color: cadetblue;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px black;
+  line-height: -10;
+  font-size:60px;
+  margin-top: -15px;
+  font-family: "DM Serif Text", serif;
+
+}
+#tvshows div{
+  margin: 30px;
+  width: 900px;
+  border: 3px solid black;
+  background-color: rgb(240, 206, 159);
+  border-radius: 20px;
+  margin-left: 200px;
+}
+#tvshows video{
+  width: 800px;
+  height: auto;
+  margin: 50px;
+  margin-top: -45px;
+}
+#tvshows h3{
+  font-weight: 1000;
+  font-family: "Courier Prime", monospace;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: rgb(8, 125, 129);
+  margin-left: 10px;
+  margin: 50px;
+}
+#tvshows a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 1000px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+
+#movies{
+  max-width: 100%;
+  max-height: fit-content;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  box-shadow: 1px 3px 7px #5A4938;
+}
+#movies h2 {
+  color: cadetblue;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px black;
+  line-height: -10;
+  font-size:60px;
+  margin-top: -15px;
+  font-family: "DM Serif Text", serif;
+
+}
+#movies div{
+  margin: 30px;
+  width: 900px;
+  border: 3px solid black;
+  background-color: rgb(240, 206, 159);
+  border-radius: 20px;
+  margin-left: 200px;
+}
+#movies video{
+  width: 800px;
+  height: auto;
+  margin: 50px;
+  margin-top: -45px;
+}
+#movies h3{
+  font-weight: 1000;
+  font-family: "Courier Prime", monospace;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: rgb(8, 125, 129);
+  margin-left: 10px;
+  margin: 50px;
+}
+#movies a{
+  color: #BB7B41;
+  text-shadow: 1px 1px #5A4938;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 1000px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Verdana;
+  color: rgb(8, 125, 129);
+  text-shadow: 1px 1px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
